@@ -1,0 +1,159 @@
+@media(max-width){ }
+
+
+
+header{
+    padding: 10px 20px;
+}
+
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+nav a{
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about article{
+    padding: 50px 30px;
+    flex-direction: column;
+    gap: 40px;
+   
+}
+
+#about article img{
+    width: 80%;
+    
+}
+
+article div{
+    width: 100%;
+    gap: 30px;
+
+    
+}
+
+#about article div p{
+    font-size: 18px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+#astro article{
+    padding: 50px;
+    gap:20px;
+    justify-content: center;
+}
+ 
+ 
+   
+
+#astro article img{
+    width: 100px;
+    height: 100px;
+  
+}
+
+
+ 
+
+#contact article{
+    
+    
+    flex-direction: column;
+  
+    gap: 40px;
+}
+
+#contact article div{
+    width: 100%;
+ 
+}
+
+#contact article div p{
+    justify-content: center;
+    align-items: center;
+}
+
+
+#contact article form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 20px;
+    background-color: whitesmoke;
+
+}
+
+#contact article form input, textarea{
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+#contact article form input:focus,
+textarea:focus{
+    border-color: darkorange;
+}
+
+#contact article form button{
+    width: fit-content;
+    padding: 15px 40px;
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 1s;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#contact article form button:hover{
+    background-color: black;
+}
+
+footer{
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+footer p{
+    font-size: 11px;
+}
